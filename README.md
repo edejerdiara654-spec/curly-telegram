@@ -1,171 +1,133 @@
 # curly-telegram
-Computer programming code
+<!DOCTYPE html>
+<html style="background-color: #f3e8ff; color: #3b0764;">
+<head>
+    <title>Current Watch Progress</title>
+</head>
+<body>
+    <header>
+        <h1>My Current Binge Status</h1>
+        <p>Where I'm at with each show right now.</p>
+        <hr>
+        <nav>
+            <a href="index.html">Main List</a> | 
+            <a href="reviews.html">My Honest Thoughts</a> | 
+            <a href="watchlist.html">What I'm Watching</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h2>Watch List</h2>
+        
+<table border="1">
+            <thead>
+                <tr>
+                    <th>Show</th>
+                    <th>Vibe</th>
+                    <th>My Progress</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>House of the Dragon</td>
+                    <td>Intense & Dark</td>
+                    <td>Rewatching favorite episodes</td>
+                </tr>
+                <tr>
+                    <td>Kaito Joker</td>
+                    <td>Funny & Silly</td>
+                    <td>Finished every season!</td>
+                </tr>
+                <tr>
+                    <td>The Dragon Prince</td>
+                    <td>Magical & Cozy</td>
+                    <td>Hyped for the next release</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+</html>   
 
 <!DOCTYPE html>
-<html lang="en">
+<html style="background-color: #e6f2ff; color: #002b50;">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Multimedia Project</title>
-    <style>
-        /* Basic page setup with Background Image */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #333;
-            margin: 0;
-            padding: 40px 20px;
-            
-            /* BACKGROUND IMAGE SETTINGS */
-            background-image: url('your-background.jpg'); /* <-- Put your background image file name here */
-            background-size: cover;          /* Forces the image to cover the entire screen */
-            background-position: center;    /* Centers the image so it looks good on all screens */
-            background-attachment: fixed;  /* Keeps the background still while you scroll the page */
-            background-repeat: no-repeat;   /* Prevents the image from tiling/repeating */
-        }
-
-        header {
-            text-align: center;
-            margin-bottom: 50px;
-            /* Added a text shadow so the title is easy to read over any background */
-            text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8); 
-        }
-
-        header h1 {
-            color: #2c3e50;
-            margin-bottom: 8px;
-        }
-
-        header p {
-            color: #555;
-            margin-top: 0;
-            font-weight: 500;
-        }
-
-        /* Section Container */
-        .media-section {
-            max-width: 1100px;
-            margin: 0 auto 50px auto;
-            /* Changed background to semi-transparent white (rgba) 
-               so your background image peeks through beautifully! */
-            background: rgba(255, 255, 255, 0.92);
-            backdrop-filter: blur(5px); /* Adds a modern blurry glass effect */
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-        }
-
-        .media-section h2 {
-            color: #2c3e50;
-            margin-top: 0;
-            border-bottom: 2px solid #ecf0f1;
-            padding-bottom: 10px;
-            margin-bottom: 25px;
-        }
-
-        /* 3-Column Grid for the items */
-        .media-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-        }
-
-        /* Individual item wrapper */
-        .media-item {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-        }
-
-        .media-item span {
-            font-weight: 600;
-            color: #555;
-            font-size: 0.95rem;
-        }
-
-        /* Image Rules */
-        .project-img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 8px;
-            border: 1px solid #ddd;
-        }
-
-        /* Audio Rules */
-        .project-audio {
-            width: 100%;
-            border-radius: 8px;
-        }
-
-        /* Video Rules */
-        .project-video {
-            width: 100%;
-            aspect-ratio: 16 / 9;
-            background-color: #000;
-            border-radius: 8px;
-        }
-    </style>
+    <title>My Honest Thoughts</title>
 </head>
 <body>
 
-    <header>
-        <h1>My Multimedia Collection</h1>
-        <p>A structured layout featuring 3 images, 3 audio tracks, and 3 videos.</p>
+<header>
+        <h1>Why You Should Watch These</h1>
+        <hr>
+        <nav>
+            <a href="index.html">Main
+            List</a> | 
+            <a href="reviews.html">My Honest Thoughts</a> | 
+            <a href="watchlist.html">What I'm Watching</a>
+        </nav>
+        <hr>
     </header>
 
-    <section class="media-section">
-        <h2>📷 Image Gallery</h2>
-        <div class="media-grid">
-            <div class="media-item">
-                <span>Image One</span>
-                <img src="your-image1.jpg" alt="Description 1" class="project-img">
-            </div>
-            <div class="media-item">
-                <span>Image Two</span>
-                <img src="your-image2.jpg" alt="Description 2" class="project-img">
-            </div>
-            <div class="media-item">
-                <span>Image Three</span>
-                <img src="your-image3.jpg" alt="Description 3" class="project-img">
-            </div>
-        </div>
-    </section>
+ <main>
+<article>
+            <h2>House of the Dragon</h2>
+            <p><strong>Rating:</strong> 10/10 dragons</p>
+            <p><strong>Why watch it:</strong> The visual effects are wild, and the family chaos gets crazier every single episode.</p>
+        </article>
+        <hr>
 
-    <section class="media-section">
-        <h2>🎵 Audio Tracks</h2>
-        <div class="media-grid">
-            <div class="media-item">
-                <span>Audio Track One</span>
-                <audio controls src="your-audio1.mp3" class="project-audio"></audio>
-            </div>
-            <div class="media-item">
-                <span>Audio Track Two</span>
-                <audio controls src="your-audio2.mp3" class="project-audio"></audio>
-            </div>
-            <div class="media-item">
-                <span>Audio Track Three</span>
-                <audio controls src="your-audio3.mp3" class="project-audio"></audio>
-            </div>
-        </div>
-    </section>
+ <article>
+            <h2>Kaito Joker</h2>
+            <p><strong>Rating:</strong> 10/10 miracle maker</p>
+            <p><strong>Why watch it:</strong> Joker's tricks make no sense in the best way possible. It's just pure fun.</p>
+        </article>
+        <hr>
 
-    <section class="media-section">
-        <h2>🎥 Video Playlist</h2>
-        <div class="media-grid">
-            <div class="media-item">
-                <span>Video One</span>
-                <video controls src="your-video1.mp4" class="project-video"></video>
-            </div>
-            <div class="media-item">
-                <span>Video Two</span>
-                <video controls src="your-video2.mp4" class="project-video"></video>
-            </div>
-            <div class="media-item">
-                <span>Video Three</span>
-                <video controls src="your-video3.mp4" class="project-video"></video>
-            </div>
-        </div>
-    </section>
+    
+<article>
+            <h2>The Dragon Prince</h2>
+            <p><strong>Rating:</strong> 10/10 adorable companions</p>
+            <p><strong>Why watch it:</strong> Bait the glow-toad carries the whole show. Plus, the magic lore is actually super neat.</p>
+        </article>
+    </main>
+</body>
+</html>
 
+<!DOCTYPE html>
+<html style="background-color: #2b0808; color: #ffe6e6;">
+<head>
+    <title>Shows I'm Obsessed With</title>
+</head>
+<body>
+
+<header>
+        <h1>Welcome to My Favorite Shows!</h1>
+        <p>Honestly just a page about three shows I can't stop rewatching.</p>
+        <hr>
+        <nav>
+            <a href="index.html" style="color: #ff9999;">Main List</a> | 
+            <a href="reviews.html" style="color: #ff9999;">My Honest Thoughts</a> | 
+            <a href="watchlist.html" style="color: #ff9999;">What I'm Watching</a>
+        </nav>
+        <hr>
+    </header>
+
+<main>
+        <h2>The Top 3</h2>
+        <ol>
+            <li>
+                <h3>House of the Dragon</h3>
+                <p>Dragons, drama, and people constantly backstabbing each other over a fancy chair. Super addicting!</p>
+            </li>
+            <li>
+                <h3>Kaito Joker</h3>
+                <p>A goofy, super smart phantom thief pulling off wild treasure heists. It's ridiculous and I love it.</p>
+            </li>
+            <li>
+                <h3>The Dragon Prince</h3>
+                <p>A fun adventure with cool magic, cute creatures, and a wholesome team trying to save the world.</p>
+            </li>
+        </ol>
+    </main>
 </body>
 </html>
